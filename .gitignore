@@ -24,3 +24,5 @@ yarn-error.log*
 
 /public/images
 /public/videos
+public/images
+public/videos
