@@ -4,6 +4,7 @@ import { FaqsContainer } from "../containers/faqs";
 // import { JumbotronContainer } from "../containers/jumbotron";
 import { FooterContainer } from "../containers/footer";
 import { HeaderContainer } from "../containers/header";
+import { MapContainer } from "../containers/map";
 
 export default function Home() {
     return (
@@ -11,14 +12,14 @@ export default function Home() {
             <HeaderContainer>
                 <Feature>
                     <Feature.Title>
-                        Unlimited films, TV programmes and more.
+                        Let us help you make your living space, more liveable.
                     </Feature.Title>
                     <Feature.SubTitle>
-                        Watch anywhere. Cancel at any time.
+                        Call or email now to get a quote.
                     </Feature.SubTitle>
                     <OptForm>
                         <OptForm.Input placeholder="Email Address" />
-                        <OptForm.Button>Try it now</OptForm.Button>
+                        <OptForm.Button>Get a quote</OptForm.Button>
                         <OptForm.Break />
                         <OptForm.Text>
                             Ready to watch? Enter your email to create or
@@ -27,7 +28,7 @@ export default function Home() {
                     </OptForm>
                 </Feature>
             </HeaderContainer>
-            {/*<JumbotronContainer />*/}
+            <MapContainer />
             <FaqsContainer />
             <FooterContainer />
         </>
